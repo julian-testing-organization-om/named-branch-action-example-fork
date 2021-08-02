@@ -1,7 +1,7 @@
 name: 'Named Branches'
 on: push
 jobs:
-  build:
+  named-branches:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
