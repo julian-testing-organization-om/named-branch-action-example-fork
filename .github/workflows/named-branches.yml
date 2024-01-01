@@ -2,6 +2,10 @@ name: 'Named Branches'
 on:
   push:
   pull_request:
+
+permissions:
+  contents: write
+
 jobs:
   named-branches:
     runs-on: ubuntu-latest
