@@ -4,9 +4,9 @@ jobs:
   named-branches:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
       with:
         fetch-depth: 0
-    - uses: Julian/named-branch-action@main
+    - uses: Julian/named-branch-action@v0.3.0
       with:
         github_token: '${{ secrets.GITHUB_TOKEN }}'
