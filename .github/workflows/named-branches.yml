@@ -1,7 +1,7 @@
 name: 'Named Branches'
 on:
   push:
-  pull_request:
+  pull_request_target:
 
 permissions:
   contents: write
