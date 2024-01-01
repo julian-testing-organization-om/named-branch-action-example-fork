@@ -1,5 +1,7 @@
 name: 'Named Branches'
-on: push
+on:
+  push:
+  pull_request:
 jobs:
   named-branches:
     runs-on: ubuntu-latest
