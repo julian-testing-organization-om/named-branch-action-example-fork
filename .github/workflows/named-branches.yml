@@ -13,6 +13,6 @@ jobs:
     - uses: actions/checkout@v4
       with:
         fetch-depth: 1000
-    - uses: Julian/named-branch-action@v1
+    - uses: Julian/named-branch-action@v2
       with:
         github_token: '${{ secrets.GITHUB_TOKEN }}'
